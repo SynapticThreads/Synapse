@@ -4025,4 +4025,17 @@ h2 .subtext {
 	display: block;
 	margin-top: 0.25em;
   }
-  
+/* Shift banner content down by 5% of viewport height */
+#banner .inner {
+  padding-top: 5vh;
+}
+
+#banner h2,
+#banner p,
+#banner .actions {
+  margin-top: 1vh;
+}
+
+a.more.scrolly {
+  margin-top: 2vh;
+}
