@@ -4039,3 +4039,14 @@ h2 .subtext {
 a.more.scrolly {
   margin-top: 2vh;
 }
+
+
+#banner h2 {
+  color: black;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+}
