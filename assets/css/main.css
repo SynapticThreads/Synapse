@@ -4085,3 +4085,18 @@ a.more.scrolly {
     -1px  1px 0 white,
      1px  1px 0 white;
 }
+
+
+/* === GLOBAL TEXT OUTLINE FOR DESKTOP & MOBILE === */
+#banner h2,
+#banner p,
+#banner .subtext,
+#banner a.more {
+  color: black !important;
+  font-weight: bold !important;
+  text-shadow:
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+}
