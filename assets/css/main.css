@@ -4027,15 +4027,23 @@ h2 .subtext {
   }
 
 /* === Mobile Optimization (Fix background image cropping/stretching) === */
+.mobile-banner {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   #banner {
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: contain; /* instead of cover */
+    background: none !important;
     min-height: auto;
     height: auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .mobile-banner {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   #banner .inner {
