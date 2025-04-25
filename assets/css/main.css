@@ -4026,17 +4026,21 @@ h2 .subtext {
 	margin-top: 0.25em;
   }
 
-/* === Mobile Optimization === */
+/* === Mobile Optimization (Fix background image cropping/stretching) === */
 @media only screen and (max-width: 768px) {
   #banner {
-    background-position: top center;
-    background-size: cover;
-    min-height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain; /* instead of cover */
+    min-height: auto;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   #banner .inner {
-    padding: 2rem 1rem;
     text-align: center;
+    padding: 1rem;
   }
 
   #banner h2 {
@@ -4055,4 +4059,3 @@ h2 .subtext {
     margin-top: 1rem;
   }
 }
-
