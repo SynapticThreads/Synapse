@@ -4072,3 +4072,16 @@ a.more.scrolly {
     -1px  1px 0 white,
      1px  1px 0 white;
 }
+
+#banner .inner h2,
+#banner .inner p,
+#banner .inner a,
+#banner .inner span {
+  color: black;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+}
