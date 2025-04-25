@@ -4025,4 +4025,34 @@ h2 .subtext {
 	display: block;
 	margin-top: 0.25em;
   }
-  
+
+/* === Mobile Optimization === */
+@media only screen and (max-width: 768px) {
+  #banner {
+    background-position: top center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  #banner .inner {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  #banner h2 {
+    font-size: 2rem;
+  }
+
+  #banner p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .more {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+
