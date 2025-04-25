@@ -4074,3 +4074,45 @@ h2 .subtext {
     margin-top: 1rem;
   }
 }
+
+
+/* === Mobile Banner Fix: Keep Aspect Ratio === */
+@media only screen and (max-width: 768px) {
+  #banner {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: auto;
+    padding: 4rem 0;
+  }
+
+  #banner .inner {
+    height: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #banner h2 {
+    font-size: 2rem;
+  }
+
+  #banner .subtext {
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+
+  #banner p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .more {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
