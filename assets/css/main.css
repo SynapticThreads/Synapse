@@ -4098,8 +4098,11 @@ a.more.scrolly {
     -1px  1px 0 white,
      1px  1px 0 white;
 }
-#two .spotlight {
-  flex-direction: column;
-  align-items: center;
+/* Center only the text inside the content area */
+#two .spotlight .content {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
