@@ -4107,7 +4107,7 @@ a.more.scrolly {
 }
 #one .inner {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
 }
 
 #one h2,
@@ -4118,7 +4118,7 @@ a.more.scrolly {
 
 #one.wrapper {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
 }
 
 
